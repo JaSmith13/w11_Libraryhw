@@ -9,4 +9,12 @@ public class Book {
         this.genre = genre;
         this.title = title;
     }
+
+    public String getBookInfo(){
+        return String.format("%s by %s", title, author);
+    }
+
+    public String getGenre(){
+        return this.genre;
+    }
 }
